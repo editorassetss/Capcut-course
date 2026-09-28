@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>CapCut Video Editing Masterclass | Zero Se Pro (₹199 Only)</title>
+  <meta name="description" content="CapCut ke pro tools, motion graphics, audio sync, sound design, aur cinematic color grading ko step-by-step master karo. Enroll ₹199 Only." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1586549666311642');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none" 
+         src="https://www.facebook.com/tr?id=1586549666311642&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['"Outfit"', 'sans-serif'],
+          },
+          colors: {
+            deep: {
+              bg: '#040812',         // Deep midnight slate background as in image
+              card: '#071022',       // Card navy background
+              cardHover: '#0b1836',  // Card hover
+              border: '#152445',     // Subtle card border
+              borderGlow: '#1E3A8A',
+            },
+            accent: {
+              blue: '#0088FF',       // Vibrant electric blue from image CTA
+              blueHover: '#0070D6',
+              cyan: '#38BDF8',       // Bright cyan highlights
+              neon: '#00F5FF',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #040812;
+      color: #E2E8F0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    h1, h2, h3, h4, .font-heading {
+      font-family: 'Outfit', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    /* Glow Effects matching reference image */
+    .blue-glow-box {
+      box-shadow: 0 0 40px -10px rgba(0, 136, 255, 0.3);
+    }
+    
+    .neon-cyan-glow {
+      box-shadow: 0 0 35px -5px rgba(56, 189, 248, 0.25);
+    }
+
+    .btn-gradient {
+      background: linear-gradient(180deg, #1E90FF 0%, #0077E6 100%);
+      box-shadow: 0 4px 20px rgba(0, 119, 230, 0.4);
+    }
+    .btn-gradient:hover {
+      background: linear-gradient(180deg, #2A96FF 0%, #0080F5 100%);
+      box-shadow: 0 6px 25px rgba(0, 119, 230, 0.6);
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #040812;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #152445;
+      border-radius: 999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0088FF;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-accent-blue selection:text-white">
+
+  <!-- ================= TOP URGENCY TICKER (SINGLE LINE ON ALL MOBILES) ================= -->
+  <div class="bg-gradient-to-r from-blue-900 via-accent-blue to-cyan-600 text-white py-1.5 sm:py-2 px-2 sm:px-3 sticky top-0 z-50 shadow-md">
+    <div class="max-w-5xl mx-auto flex items-center justify-center gap-1.5 sm:gap-2 whitespace-nowrap text-[11px] sm:text-xs font-semibold">
+      <span class="inline-flex items-center gap-1 bg-black/40 px-1.5 py-0.5 rounded text-cyan-300 font-bold text-[10px] sm:text-[11px] uppercase tracking-wider shrink-0">
+        🔥 Flash Offer
+      </span>
+      <span class="shrink-0">80% OFF: <span id="top-timer" class="font-mono font-black text-cyan-200 underline">14:59</span></span>
+      <span class="text-white/40">•</span>
+      <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn underline hover:text-cyan-200 font-bold text-white transition shrink-0">Enroll ₹199 &rarr;</a>
+    </div>
+  </div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="border-b border-deep-border/80 bg-deep-bg/90 backdrop-blur-md sticky top-[33px] sm:top-[37px] z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-accent-blue/20 border border-accent-blue/40 flex items-center justify-center text-accent-blue shadow-md">
+          <i data-lucide="video" class="w-4 h-4 sm:w-5 sm:h-5 text-accent-cyan"></i>
+        </div>
+        <span class="text-base sm:text-lg font-black tracking-tight text-white font-heading uppercase">
+          CapCut<span class="text-accent-cyan">Pro</span>
+        </span>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-6 text-xs font-semibold text-gray-300 uppercase tracking-wider">
+        <a href="#curriculum" class="hover:text-accent-cyan transition">What You'll Learn</a>
+        <a href="#syllabus" class="hover:text-accent-cyan transition">Syllabus</a>
+        <a href="#outcomes" class="hover:text-accent-cyan transition">Outcomes</a>
+        <a href="#feedback" class="hover:text-accent-cyan transition">Feedback</a>
+        <a href="#faq" class="hover:text-accent-cyan transition">FAQs</a>
+      </nav>
+
+      <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn btn-gradient text-white font-bold text-xs sm:text-sm px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg transition transform active:scale-95 flex items-center gap-1.5 uppercase tracking-wide">
+        <span>Enroll ₹199</span>
+        <i data-lucide="arrow-right" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section class="pt-8 sm:pt-14 pb-14 sm:pb-20 relative overflow-hidden">
+    <!-- Ambient Blue Glow Behind Hero -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[300px] bg-accent-blue/15 rounded-full blur-[120px] pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+      
+      <!-- Top Badge (From reference image) -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-md bg-accent-blue/15 border border-accent-blue/30 text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider mb-5">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+        <span>COMPLETE CAPCUT MASTERCLASS</span>
+      </div>
+
+      <!-- Main Headline (Exact as reference image) -->
+      <h1 class="text-3xl sm:text-5xl md:text-6xl font-black uppercase text-white tracking-tight leading-[1.12] mb-4 sm:mb-6">
+        ZERO SE <br />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-cyan via-accent-blue to-blue-400">PROFESSIONAL</span> <br />
+        VIDEO EDITING TAK
+      </h1>
+
+      <!-- Subtitle (Exact as reference image) -->
+      <p class="text-gray-300 text-sm sm:text-lg max-w-2xl mx-auto font-normal leading-relaxed mb-8">
+        CapCut ke pro tools, motion graphics, audio sync, sound design, aur cinematic color grading ko step-by-step master karo.
+      </p>
+
+      <!-- Video Editing Interface Mockup (Exact layout from reference image) -->
+      <div class="max-w-2xl mx-auto mb-8 relative">
+        <div class="rounded-2xl border border-deep-border bg-deep-card/90 p-2.5 sm:p-4 blue-glow-box">
+          <div class="relative rounded-xl overflow-hidden bg-[#03060E] border border-white/10 aspect-[16/10] flex flex-col justify-between p-3 sm:p-5">
+            
+            <!-- Glow Accents inside editor -->
+            <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-emerald-500/20 to-transparent pointer-events-none"></div>
+            <div class="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-fuchsia-500/20 to-transparent pointer-events-none"></div>
+
+            <!-- Top bar inside preview -->
+            <div class="flex items-center justify-between relative z-10">
+              <div class="flex items-center gap-1.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-red-500/80"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></span>
+                <span class="w-2.5 h-2.5 rounded-full bg-green-500/80"></span>
+                <span class="text-[10px] text-gray-400 font-mono ml-2">CapCut Pro Timeline v2026</span>
+              </div>
+              <div class="bg-accent-blue/20 text-accent-cyan border border-accent-blue/30 text-[10px] font-bold px-2 py-0.5 rounded">
+                4K 60FPS
+              </div>
+            </div>
+
+            <!-- Video Timeline Simulation -->
+            <div class="space-y-2 relative z-10 my-auto py-2">
+              <!-- Grid of thumbnails in editor -->
+              <div class="flex items-center justify-center gap-2">
+                <div class="w-16 h-12 sm:w-24 sm:h-16 rounded bg-gradient-to-br from-indigo-900 to-slate-900 border border-indigo-500/30 flex items-center justify-center text-[10px] text-indigo-300 font-semibold shadow">Hook Clip</div>
+                <div class="w-20 h-14 sm:w-28 sm:h-18 rounded bg-gradient-to-br from-cyan-950 to-blue-900 border border-cyan-400/50 flex items-center justify-center text-xs text-cyan-200 font-bold shadow-lg shadow-cyan-500/20 scale-105">B-Roll Cut</div>
+                <div class="w-16 h-12 sm:w-24 sm:h-16 rounded bg-gradient-to-br from-purple-900 to-slate-900 border border-purple-500/30 flex items-center justify-center text-[10px] text-purple-300 font-semibold shadow">Color Grade</div>
+              </div>
+
+              <!-- Audio waveform visualization -->
+              <div class="h-6 sm:h-8 rounded bg-black/60 border border-white/5 flex items-center justify-center px-3 gap-0.5 sm:gap-1 overflow-hidden">
+                <span class="w-1 h-3 bg-accent-cyan rounded-full animate-pulse"></span>
+                <span class="w-1 h-5 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-2 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-6 bg-accent-blue rounded-full"></span>
+                <span class="w-1 h-4 bg-accent-blue rounded-full"></span>
+                <span class="w-1 h-7 bg-accent-cyan rounded-full animate-pulse"></span>
+                <span class="w-1 h-3 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-5 bg-accent-blue rounded-full"></span>
+                <span class="w-1 h-2 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-6 bg-accent-blue rounded-full"></span>
+                <span class="w-1 h-4 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-5 bg-accent-cyan rounded-full"></span>
+                <span class="w-1 h-2 bg-accent-blue rounded-full"></span>
+                <span class="w-1 h-7 bg-accent-cyan rounded-full animate-pulse"></span>
+              </div>
+            </div>
+
+            <!-- "Watch Course Preview" button inside mockup -->
+            <a href="#pricing" class="w-full bg-deep-card/90 hover:bg-deep-border border border-accent-blue/30 text-accent-cyan text-xs font-bold py-2 rounded-lg flex items-center justify-center gap-1.5 transition">
+              <i data-lucide="play" class="w-3.5 h-3.5 fill-accent-cyan text-accent-cyan"></i>
+              <span class="uppercase tracking-wider">WATCH THE COURSE PREVIEW</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Price & Hero Action (Exact as reference image) -->
+      <div class="flex flex-col items-center justify-center">
+        <!-- Price display: ₹199 (bold blue) + ₹999 strikethrough -->
+        <div class="flex items-baseline justify-center gap-2 mb-3">
+          <span class="text-xs sm:text-sm text-gray-500 font-semibold line-through">₹999</span>
+          <span class="text-4xl sm:text-5xl font-black text-accent-cyan font-heading">₹199</span>
+          <span class="bg-accent-blue/20 text-accent-cyan text-[11px] font-bold px-2 py-0.5 rounded border border-accent-blue/30 uppercase">80% OFF</span>
+        </div>
+
+        <!-- Solid Electric Blue Button -->
+        <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn w-full sm:max-w-md btn-gradient text-white font-black text-base sm:text-lg py-3.5 sm:py-4 px-8 rounded-xl transition transform active:scale-95 flex items-center justify-center gap-2 uppercase tracking-wider">
+          <span>ENROLL NOW &rarr;</span>
+        </a>
+
+        <!-- Trust Subtext -->
+        <div class="flex items-center justify-center gap-3 sm:gap-4 text-[11px] sm:text-xs text-gray-400 mt-3.5">
+          <span class="flex items-center gap-1">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5 text-accent-cyan"></i> 100% Secure Checkout
+          </span>
+          <span>•</span>
+          <span class="flex items-center gap-1">
+            <i data-lucide="zap" class="w-3.5 h-3.5 text-yellow-400"></i> Instant Course Access
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION 1: WHAT YOU'LL LEARN ================= -->
+  <section id="curriculum" class="py-12 sm:py-18 border-t border-deep-border/60 bg-deep-bg relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <!-- Section Header -->
+      <div class="text-left mb-8 sm:mb-12">
+        <span class="text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider block mb-1">
+          WHAT YOU'LL LEARN
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          EDITING SEEKHO. BETTER CONTENT BANAO.
+        </h2>
+        <p class="text-gray-400 text-xs sm:text-sm mt-2 max-w-2xl">
+          CapCut ke basic cuts se lekar advanced video storytelling aur client acquisition tak sab practical training ke saath.
+        </p>
+      </div>
+
+      <!-- 6 Numbered Feature Cards (01 to 06 matching reference image) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
+
+        <!-- Card 01 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">01</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">PRO EDITING</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Timeline shortcuts, clean cuts, speed ramping, keyframing, aur pro transitions jo videos ko ultra smooth banate hain.
+          </p>
+        </div>
+
+        <!-- Card 02 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">02</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">MOTION GRAPHICS</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Text animations, glowing popups, lower-thirds overlays, aur animated sticker tracking phone par hi karna.
+          </p>
+        </div>
+
+        <!-- Card 03 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">03</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">REELS & SHORTS</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Pehele 3 seconds me audience ko grab karne wali viral hook editing, fast pacing aur high retention retention tricks.
+          </p>
+        </div>
+
+        <!-- Card 04 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">04</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">EFFECTS & COLOR</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Cinematic color grading, teal & orange mood, custom LUTs application, aur normal phone footage ko DSLR look dena.
+          </p>
+        </div>
+
+        <!-- Card 05 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">05</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">AUDIO & BEAT SYNC</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Trending songs ke beats par perfect cuts sync karna, voice clarity enhance karna, aur right sound effects (SFX) place karna.
+          </p>
+        </div>
+
+        <!-- Card 06 -->
+        <div class="bg-deep-card border border-deep-border p-5 rounded-xl hover:border-accent-blue/50 transition">
+          <div class="text-2xl sm:text-3xl font-black text-accent-cyan font-heading mb-2">06</div>
+          <h3 class="text-base sm:text-lg font-bold text-white uppercase tracking-tight mb-1.5">EDITING EARNING</h3>
+          <p class="text-gray-400 text-xs sm:text-sm leading-relaxed">
+            Video editing skills se paise kaise kamayein, Instagram & YouTube creators ko DM pitching, aur portfolio kaise banayein.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION 2: CHECKLIST (IS COURSE MEIN AAP KYA SEEKHOGE?) ================= -->
+  <section id="syllabus" class="py-12 sm:py-18 border-t border-deep-border/60 bg-deep-bg/50 relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+
+      <!-- Section Header -->
+      <div class="text-left mb-8 sm:mb-10">
+        <span class="text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider block mb-1">
+          COURSE CURRICULUM
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          IS COURSE MEIN AAP KYA SEEKHOGE?
+        </h2>
+      </div>
+
+      <!-- Checklist Items Grid (Matching the reference layout) -->
+      <div class="space-y-3">
+
+        <!-- Item 1 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">CAPCUT COMPLETE WORKFLOW</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Mobile aur PC dono me interface, secret settings aur zero lag setup.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">PROFESSIONAL CUTS & TRANSITIONS</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Smooth flow, fast whip pans, seamless zoom-ins aur seamless cuts.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">TEXT & CAPTION ANIMATION</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Hormozi style pop-in keywords, auto-subtitles, glowing text aur custom Hindi fonts.</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">MOTION GRAPHICS & OVERLAYS</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Animated stickers, callouts, arrows aur face/body object tracking.</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">AUDIO BEAT SYNC</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Trending reels music ke bass aur drops ke according instant accurate cut placement.</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">COLOR GRADING</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Moody cinematic lighting, teal & orange color grades, aur skin tone correction.</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">SPEED RAMPING & SLOW MOTION</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Butter-smooth 60fps slow motion aur dynamic fast-forward speed curves.</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">TRENDING CONTENT TECHNIQUES</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Viral zoom-ins, screen shakes, glitch transitions, aur cinematic b-rolls.</p>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">FREE BUNDLE OF RESOURCES</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">1,500+ sound effects, 500+ creator fonts, LUTs, aur viral hook templates pack.</p>
+          </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="bg-deep-card/90 border border-deep-border p-3.5 sm:p-4 rounded-xl flex items-start gap-3 hover:border-accent-blue/40 transition">
+          <div class="w-6 h-6 rounded bg-accent-blue text-white flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
+          </div>
+          <div>
+            <h4 class="text-xs sm:text-sm font-bold text-white uppercase tracking-wide">HIGH QUALITY EXPORT</h4>
+            <p class="text-gray-400 text-[11px] sm:text-xs mt-0.5">Instagram compression se bachne ke liye exact 4K bitrate settings.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION 3: OUTCOMES (COURSE KE BAAD AAP KYA CREATE KAR SAKOGE?) ================= -->
+  <section id="outcomes" class="py-12 sm:py-18 border-t border-deep-border/60 bg-deep-bg relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+
+      <!-- Section Header -->
+      <div class="text-left mb-8 sm:mb-10">
+        <span class="text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider block mb-1">
+          AFTER THIS COURSE
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          COURSE KE BAAD AAP KYA CREATE KAR SAKOGE?
+        </h2>
+        <p class="text-gray-400 text-xs sm:text-sm mt-2">
+          Practical skills jisse aap yeh 5 major formats confidently produce kar sakoge:
+        </p>
+      </div>
+
+      <!-- 5 Outcome Cards (Matching reference layout) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+        <!-- Outcome 1 -->
+        <div class="bg-deep-card border border-deep-border p-4 sm:p-5 rounded-xl">
+          <span class="text-[10px] font-bold text-accent-cyan tracking-wider uppercase block mb-1">FORMAT 01</span>
+          <h4 class="text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">TALKING HEAD REELS</h4>
+          <p class="text-gray-400 text-xs leading-relaxed">
+            Podcast clips, educational reels, dynamic captions aur engaging b-rolls ke saath.
+          </p>
+        </div>
+
+        <!-- Outcome 2 -->
+        <div class="bg-deep-card border border-deep-border p-4 sm:p-5 rounded-xl">
+          <span class="text-[10px] font-bold text-accent-cyan tracking-wider uppercase block mb-1">FORMAT 02</span>
+          <h4 class="text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">YOUTUBE SHORTS</h4>
+          <p class="text-gray-400 text-xs leading-relaxed">
+            Fast-paced storytelling, continuous visual hooks aur high audience retention edits.
+          </p>
+        </div>
+
+        <!-- Outcome 3 -->
+        <div class="bg-deep-card border border-deep-border p-4 sm:p-5 rounded-xl">
+          <span class="text-[10px] font-bold text-accent-cyan tracking-wider uppercase block mb-1">FORMAT 03</span>
+          <h4 class="text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">PROMOTIONAL VIDEOS</h4>
+          <p class="text-gray-400 text-xs leading-relaxed">
+            Brands, e-commerce products aur business clients ke liye commercial level ads.
+          </p>
+        </div>
+
+        <!-- Outcome 4 -->
+        <div class="bg-deep-card border border-deep-border p-4 sm:p-5 rounded-xl">
+          <span class="text-[10px] font-bold text-accent-cyan tracking-wider uppercase block mb-1">FORMAT 04</span>
+          <h4 class="text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">TRAVEL & VLOGS</h4>
+          <p class="text-gray-400 text-xs leading-relaxed">
+            Aesthetic cinematic cuts, ambient sound design aur emotional visual pacing.
+          </p>
+        </div>
+
+        <!-- Outcome 5 (Span 2 on desktop) -->
+        <div class="bg-deep-card border border-accent-blue/40 p-4 sm:p-5 rounded-xl sm:col-span-2">
+          <span class="text-[10px] font-bold text-accent-cyan tracking-wider uppercase block mb-1">CAREER & INCOME</span>
+          <h4 class="text-sm sm:text-base font-bold text-white uppercase tracking-wide mb-1">EDITING EARNING (FREELANCING)</h4>
+          <p class="text-gray-400 text-xs leading-relaxed">
+            Per reel ₹500 - ₹1,500 charge karke monthly clients handle karne ka complete roadmap.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION: STUDENT'S REAL WHATSAPP FEEDBACK ================= -->
+  <section id="feedback" class="py-12 sm:py-20 border-t border-deep-border/60 bg-deep-bg relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+
+      <!-- Section Header -->
+      <div class="text-center mb-10 sm:mb-14">
+        <span class="text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider block mb-1.5">
+          GENUINE STUDENT REVIEWS
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          STUDENT'S REAL WHATSAPP FEEDBACK
+        </h2>
+        <p class="text-gray-400 text-xs sm:text-sm mt-2">
+          Ye screenshots bilkul real hain — khud padh lo 👇
+        </p>
+      </div>
+
+      <!-- 4 WhatsApp Chat Mockup Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- CHAT 1: REEL VIRAL (Cyan Glow) -->
+        <div class="rounded-2xl border border-cyan-500/30 bg-[#0c1322] p-2.5 sm:p-3 shadow-xl hover:border-cyan-400/60 transition duration-300">
+          <div class="rounded-xl overflow-hidden bg-[#EFEAE2] text-[#111B21] flex flex-col justify-between shadow-inner">
+            
+            <!-- Phone Status Bar -->
+            <div class="bg-[#F0F2F5] px-3.5 py-1 flex items-center justify-between text-[10px] text-gray-500 font-semibold border-b border-gray-200">
+              <span>8:52 PM</span>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="wifi" class="w-3 h-3 text-gray-600"></i>
+                <span class="text-[9px]">VoLTE</span>
+                <span>84%</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp Chat Header -->
+            <div class="bg-[#F0F2F5] px-3 py-2 flex items-center justify-between border-b border-gray-300/80">
+              <div class="flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-gray-600"></i>
+                <div class="w-8 h-8 rounded-full bg-cyan-600 text-white font-bold text-xs flex items-center justify-center shadow">
+                  RM
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-[#111B21] leading-tight">Rahul Mehra</h4>
+                  <span class="text-[10px] text-emerald-600 font-semibold block">online</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i data-lucide="video" class="w-4 h-4"></i>
+                <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                <i data-lucide="more-vertical" class="w-3.5 h-3.5"></i>
+              </div>
+            </div>
+
+            <!-- Chat Messages Body -->
+            <div class="p-3 sm:p-4 space-y-2.5 min-h-[220px] flex flex-col justify-end text-xs leading-relaxed" style="background-color: #efeae2; background-image: radial-gradient(#d1c7b7 0.75px, transparent 0.75px); background-size: 12px 12px;">
+              
+              <!-- Sent Message -->
+              <div class="self-end bg-[#D9FDD3] text-[#111B21] rounded-lg rounded-tr-none px-3 py-1.5 max-w-[85%] shadow-sm border border-emerald-100">
+                <p class="text-[11px] sm:text-xs">Rahul Bhai, CapCut Master Class kaisa laga?</p>
+                <div class="flex items-center justify-end gap-1 text-[9px] text-gray-500 mt-0.5">
+                  <span>8:48 PM</span>
+                  <span class="text-blue-500 font-bold">✓✓</span>
+                </div>
+              </div>
+
+              <!-- Received Message 1 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg rounded-tl-none px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Sir sach me Zero se Professional editing seekh gaya! Pehle meri reels 200 views par ruk jaati thi.</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">8:50 PM</span>
+              </div>
+
+              <!-- Received Message 2 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Aapke 3-second viral hook aur fast cuts formula se meri reel 95,000 views cross kar gayi! ₹199 pehle hi din vasool ho gaye ❤️</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">8:52 PM</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Meta Bar -->
+          <div class="pt-2.5 px-2 flex items-center justify-between text-xs">
+            <span class="text-cyan-400 font-bold text-[11px] sm:text-xs">Rahul Mehra (Creator)</span>
+            <span class="text-gray-400 text-[10px] sm:text-[11px] bg-cyan-950/60 border border-cyan-500/30 px-2 py-0.5 rounded">95K+ Views Cross Hui 🚀</span>
+          </div>
+        </div>
+
+        <!-- CHAT 2: FIRST PAID CLIENT (Purple Glow) -->
+        <div class="rounded-2xl border border-purple-500/30 bg-[#0c1322] p-2.5 sm:p-3 shadow-xl hover:border-purple-400/60 transition duration-300">
+          <div class="rounded-xl overflow-hidden bg-[#EFEAE2] text-[#111B21] flex flex-col justify-between shadow-inner">
+            
+            <!-- Phone Status Bar -->
+            <div class="bg-[#F0F2F5] px-3.5 py-1 flex items-center justify-between text-[10px] text-gray-500 font-semibold border-b border-gray-200">
+              <span>11:15 AM</span>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="wifi" class="w-3 h-3 text-gray-600"></i>
+                <span class="text-[9px]">5G</span>
+                <span>91%</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp Chat Header -->
+            <div class="bg-[#F0F2F5] px-3 py-2 flex items-center justify-between border-b border-gray-300/80">
+              <div class="flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-gray-600"></i>
+                <div class="w-8 h-8 rounded-full bg-purple-600 text-white font-bold text-xs flex items-center justify-center shadow">
+                  AV
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-[#111B21] leading-tight">Ankit Verma</h4>
+                  <span class="text-[10px] text-emerald-600 font-semibold block">online</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i data-lucide="video" class="w-4 h-4"></i>
+                <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                <i data-lucide="more-vertical" class="w-3.5 h-3.5"></i>
+              </div>
+            </div>
+
+            <!-- Chat Messages Body -->
+            <div class="p-3 sm:p-4 space-y-2.5 min-h-[220px] flex flex-col justify-end text-xs leading-relaxed" style="background-color: #efeae2; background-image: radial-gradient(#d1c7b7 0.75px, transparent 0.75px); background-size: 12px 12px;">
+              
+              <!-- Sent Message -->
+              <div class="self-end bg-[#D9FDD3] text-[#111B21] rounded-lg rounded-tr-none px-3 py-1.5 max-w-[85%] shadow-sm border border-emerald-100">
+                <p class="text-[11px] sm:text-xs">Bhai, course kaisa laga? Client pitching kaam aayi?</p>
+                <div class="flex items-center justify-end gap-1 text-[9px] text-gray-500 mt-0.5">
+                  <span>11:10 AM</span>
+                  <span class="text-blue-500 font-bold">✓✓</span>
+                </div>
+              </div>
+
+              <!-- Received Message 1 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg rounded-tl-none px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Bhai honestly ummeed se zyada achha laga! Module 6 ka client pitching template sach me kaam kar gaya.</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">11:12 AM</span>
+              </div>
+
+              <!-- Received Message 2 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Kal hi 1 fitness creator ne monthly 8 reels ka deal confirm kiya, ₹700 per reel! Pehla paid client mil gaya bhai 🎉</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">11:15 AM</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Meta Bar -->
+          <div class="pt-2.5 px-2 flex items-center justify-between text-xs">
+            <span class="text-purple-400 font-bold text-[11px] sm:text-xs">Ankit Verma (Freelancer)</span>
+            <span class="text-gray-400 text-[10px] sm:text-[11px] bg-purple-950/60 border border-purple-500/30 px-2 py-0.5 rounded">Pehla Paid Client Mila 💰</span>
+          </div>
+        </div>
+
+        <!-- CHAT 3: MOBILE SE HI EASY EDITING (Emerald Glow) -->
+        <div class="rounded-2xl border border-emerald-500/30 bg-[#0c1322] p-2.5 sm:p-3 shadow-xl hover:border-emerald-400/60 transition duration-300">
+          <div class="rounded-xl overflow-hidden bg-[#EFEAE2] text-[#111B21] flex flex-col justify-between shadow-inner">
+            
+            <!-- Phone Status Bar -->
+            <div class="bg-[#F0F2F5] px-3.5 py-1 flex items-center justify-between text-[10px] text-gray-500 font-semibold border-b border-gray-200">
+              <span>6:30 PM</span>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="wifi" class="w-3 h-3 text-gray-600"></i>
+                <span class="text-[9px]">VoLTE</span>
+                <span>76%</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp Chat Header -->
+            <div class="bg-[#F0F2F5] px-3 py-2 flex items-center justify-between border-b border-gray-300/80">
+              <div class="flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-gray-600"></i>
+                <div class="w-8 h-8 rounded-full bg-emerald-600 text-white font-bold text-xs flex items-center justify-center shadow">
+                  PS
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-[#111B21] leading-tight">Priya Sharma</h4>
+                  <span class="text-[10px] text-emerald-600 font-semibold block">online</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i data-lucide="video" class="w-4 h-4"></i>
+                <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                <i data-lucide="more-vertical" class="w-3.5 h-3.5"></i>
+              </div>
+            </div>
+
+            <!-- Chat Messages Body -->
+            <div class="p-3 sm:p-4 space-y-2.5 min-h-[220px] flex flex-col justify-end text-xs leading-relaxed" style="background-color: #efeae2; background-image: radial-gradient(#d1c7b7 0.75px, transparent 0.75px); background-size: 12px 12px;">
+              
+              <!-- Sent Message -->
+              <div class="self-end bg-[#D9FDD3] text-[#111B21] rounded-lg rounded-tr-none px-3 py-1.5 max-w-[85%] shadow-sm border border-emerald-100">
+                <p class="text-[11px] sm:text-xs">Hey Priya, CapCut Master Class kaisa laga?</p>
+                <div class="flex items-center justify-end gap-1 text-[9px] text-gray-500 mt-0.5">
+                  <span>6:25 PM</span>
+                  <span class="text-blue-500 font-bold">✓✓</span>
+                </div>
+              </div>
+
+              <!-- Received Message 1 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg rounded-tl-none px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Hi sir, course bahot hi detailed aur samajhne me super easy hai! Mujhe lagta tha professional editing ke liye laptop chahiye.</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">6:27 PM</span>
+              </div>
+
+              <!-- Received Message 2 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Par phone par hi auto-captions, keyframes aur color grading itni smooth ho gayi. Ab khud apne YouTube videos bina kisi problem ke edit kar leti hu 🥰</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">6:30 PM</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Meta Bar -->
+          <div class="pt-2.5 px-2 flex items-center justify-between text-xs">
+            <span class="text-emerald-400 font-bold text-[11px] sm:text-xs">Priya Sharma (YouTuber)</span>
+            <span class="text-gray-400 text-[10px] sm:text-[11px] bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded">Mobile Se 10x Quality 📱</span>
+          </div>
+        </div>
+
+        <!-- CHAT 4: SOUND DESIGN & HOOKS (Blue Glow) -->
+        <div class="rounded-2xl border border-accent-blue/40 bg-[#0c1322] p-2.5 sm:p-3 shadow-xl hover:border-accent-blue/70 transition duration-300">
+          <div class="rounded-xl overflow-hidden bg-[#EFEAE2] text-[#111B21] flex flex-col justify-between shadow-inner">
+            
+            <!-- Phone Status Bar -->
+            <div class="bg-[#F0F2F5] px-3.5 py-1 flex items-center justify-between text-[10px] text-gray-500 font-semibold border-b border-gray-200">
+              <span>10:45 PM</span>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="wifi" class="w-3 h-3 text-gray-600"></i>
+                <span class="text-[9px]">VoLTE</span>
+                <span>65%</span>
+              </div>
+            </div>
+
+            <!-- WhatsApp Chat Header -->
+            <div class="bg-[#F0F2F5] px-3 py-2 flex items-center justify-between border-b border-gray-300/80">
+              <div class="flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-gray-600"></i>
+                <div class="w-8 h-8 rounded-full bg-blue-600 text-white font-bold text-xs flex items-center justify-center shadow">
+                  DR
+                </div>
+                <div>
+                  <h4 class="text-xs font-bold text-[#111B21] leading-tight">Dev Rajput</h4>
+                  <span class="text-[10px] text-emerald-600 font-semibold block">online</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 text-gray-600">
+                <i data-lucide="video" class="w-4 h-4"></i>
+                <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+                <i data-lucide="more-vertical" class="w-3.5 h-3.5"></i>
+              </div>
+            </div>
+
+            <!-- Chat Messages Body -->
+            <div class="p-3 sm:p-4 space-y-2.5 min-h-[220px] flex flex-col justify-end text-xs leading-relaxed" style="background-color: #efeae2; background-image: radial-gradient(#d1c7b7 0.75px, transparent 0.75px); background-size: 12px 12px;">
+              
+              <!-- Sent Message -->
+              <div class="self-end bg-[#D9FDD3] text-[#111B21] rounded-lg rounded-tr-none px-3 py-1.5 max-w-[85%] shadow-sm border border-emerald-100">
+                <p class="text-[11px] sm:text-xs">Bro, CapCut Master Class kaisa laga?</p>
+                <div class="flex items-center justify-end gap-1 text-[9px] text-gray-500 mt-0.5">
+                  <span>10:40 PM</span>
+                  <span class="text-blue-500 font-bold">✓✓</span>
+                </div>
+              </div>
+
+              <!-- Received Message 1 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg rounded-tl-none px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Bhai zabardast course hai yaar 🔥 Jo Speed Ramping, Beat Sync aur 1500+ SFX pack mila hai wo kamaal hai.</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">10:42 PM</span>
+              </div>
+
+              <!-- Received Message 2 -->
+              <div class="self-start bg-white text-[#111B21] rounded-lg px-3 py-1.5 max-w-[88%] shadow-sm border border-gray-200">
+                <p class="text-[11px] sm:text-xs">Normal footage bhi cinematic Bollywood look de rahi hai. 4K export settings se reels blur bhi nahi hoti! Paisa vasool 💯</p>
+                <span class="text-[9px] text-gray-400 block text-right mt-0.5">10:45 PM</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Meta Bar -->
+          <div class="pt-2.5 px-2 flex items-center justify-between text-xs">
+            <span class="text-accent-cyan font-bold text-[11px] sm:text-xs">Dev Rajput (Editor)</span>
+            <span class="text-gray-400 text-[10px] sm:text-[11px] bg-blue-950/60 border border-blue-500/30 px-2 py-0.5 rounded">Paisa Vasool Course 🎬</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION 4: FINAL PRICING CARD (AS IN REFERENCE) ================= -->
+  <section id="pricing" class="py-12 sm:py-20 border-t border-deep-border/60 bg-deep-bg relative">
+    <div class="max-w-xl mx-auto px-4 sm:px-6">
+
+      <!-- Distinctive Blue Border Offer Card (Exact replica of reference card) -->
+      <div class="rounded-2xl border-2 border-accent-blue/70 bg-deep-card p-6 sm:p-8 relative blue-glow-box">
+        
+        <!-- Limited Offer Tag -->
+        <div class="inline-block bg-accent-blue/20 text-accent-cyan border border-accent-blue/40 text-[10px] sm:text-xs font-bold px-3 py-1 rounded-md uppercase tracking-wider mb-4">
+          LIMITED TIME OFFER
+        </div>
+
+        <!-- Title -->
+        <h3 class="text-2xl sm:text-3xl font-black text-white uppercase tracking-tight mb-2">
+          START YOUR VIDEO EDITING JOURNEY TODAY
+        </h3>
+
+        <!-- Subtitle -->
+        <p class="text-gray-400 text-xs sm:text-sm leading-relaxed mb-6">
+          Sirf ek video edit ki fees se bhi kam me pura masterclass, free resources aur lifetime access unlock karo.
+        </p>
+
+        <!-- Price -->
+        <div class="flex items-baseline gap-2.5 mb-6 pb-6 border-b border-deep-border">
+          <span class="text-4xl sm:text-5xl font-black text-accent-cyan font-heading">₹199</span>
+          <span class="text-gray-500 text-sm sm:text-base line-through font-bold">₹999</span>
+          <span class="text-xs bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded font-bold uppercase">Save ₹800</span>
+        </div>
+
+        <!-- Solid Electric Blue CTA Button -->
+        <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn w-full btn-gradient text-white font-black text-base sm:text-lg py-4 px-6 rounded-xl transition transform active:scale-[0.98] flex items-center justify-center gap-2 uppercase tracking-wider">
+          <span>GET INSTANT ACCESS &rarr;</span>
+        </a>
+
+        <!-- Payment Badges / Micro copy -->
+        <div class="text-center mt-4">
+          <p class="text-[11px] text-gray-400">
+            🔒 100% Safe UPI, GPay, PhonePe, Paytm & Card Payment
+          </p>
+          <p class="text-[11px] text-gray-400 mt-2">
+            📧 Support Email: <a href="mailto:editorassetss@gmail.com" class="text-accent-cyan underline hover:text-white font-medium">editorassetss@gmail.com</a>
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= SECTION 5: FREQUENTLY ASKED QUESTIONS ================= -->
+  <section id="faq" class="py-12 sm:py-18 border-t border-deep-border/60 bg-deep-bg/50 relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+
+      <!-- Section Header -->
+      <div class="text-left mb-8 sm:mb-10">
+        <span class="text-accent-cyan text-[11px] sm:text-xs font-bold uppercase tracking-wider block mb-1">
+          COMMON DOUBTS
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-white uppercase tracking-tight">
+          FREQUENTLY ASKED QUESTIONS
+        </h2>
+      </div>
+
+      <!-- FAQ Accordions (Matching items in reference image) -->
+      <div class="space-y-3">
+
+        <!-- FAQ 1 -->
+        <div class="bg-deep-card border border-deep-border rounded-xl overflow-hidden">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left font-bold text-xs sm:text-sm text-white flex items-center justify-between gap-3 uppercase tracking-wide">
+            <span>1. KYA YE COURSE PHONE MEIN HO JAYEGA?</span>
+            <i data-lucide="plus" class="w-4 h-4 text-accent-cyan shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-4 sm:px-5 pb-4 text-xs text-gray-400 leading-relaxed border-t border-deep-border/40 pt-3">
+            Haan, bilkul! Course ko specifically Android aur iPhone users ke liye optimize kiya gaya hai. Saare pro cuts, text animations aur color grading mobile phone par hi step-by-step sikhaye gaye hain. (PC version bhi included hai).
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="bg-deep-card border border-deep-border rounded-xl overflow-hidden">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left font-bold text-xs sm:text-sm text-white flex items-center justify-between gap-3 uppercase tracking-wide">
+            <span>2. KYA YE BEGINNERS KE LIYE SAHI HAI?</span>
+            <i data-lucide="plus" class="w-4 h-4 text-accent-cyan shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-4 sm:px-5 pb-4 text-xs text-gray-400 leading-relaxed border-t border-deep-border/40 pt-3">
+            Ji haan, agar aapne pehle kabhi video edit nahi kiya hai tab bhi aap pehle din se follow kar sakte ho. Course bilkul zero level se basic timeline samajhne ke saath shuru hota hai.
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="bg-deep-card border border-deep-border rounded-xl overflow-hidden">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left font-bold text-xs sm:text-sm text-white flex items-center justify-between gap-3 uppercase tracking-wide">
+            <span>3. KYA ISME RESOURCES BHI MILENGE?</span>
+            <i data-lucide="plus" class="w-4 h-4 text-accent-cyan shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-4 sm:px-5 pb-4 text-xs text-gray-400 leading-relaxed border-t border-deep-border/40 pt-3">
+            Haan! ₹199 ke saath aapko 1,500+ Sound Effects (SFX), 500+ Creator Fonts, LUTs aur Viral Video Hook Scripts ka complete pack bilkul FREE milega.
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="bg-deep-card border border-deep-border rounded-xl overflow-hidden">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left font-bold text-xs sm:text-sm text-white flex items-center justify-between gap-3 uppercase tracking-wide">
+            <span>4. KYA VIDEO EDITING SE EARNING HO SAKTI HAI?</span>
+            <i data-lucide="plus" class="w-4 h-4 text-accent-cyan shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-4 sm:px-5 pb-4 text-xs text-gray-400 leading-relaxed border-t border-deep-border/40 pt-3">
+            Module 6 mein humne complete freelancing blueprint sikhaya hai ki kaise Instagram creators aur YouTube channels ko reach out karein, cold message templates kya bhejein aur per video kitna charge karein.
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="bg-deep-card border border-deep-border rounded-xl overflow-hidden">
+          <button class="faq-toggle w-full p-4 sm:p-5 text-left font-bold text-xs sm:text-sm text-white flex items-center justify-between gap-3 uppercase tracking-wide">
+            <span>5. KYA LIFETIME ACCESS MILEGA?</span>
+            <i data-lucide="plus" class="w-4 h-4 text-accent-cyan shrink-0 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden px-4 sm:px-5 pb-4 text-xs text-gray-400 leading-relaxed border-t border-deep-border/40 pt-3">
+            100% Lifetime Access! Aap jab chahein, jitni baar chahein videos dekh sakte hain aur aage aane wale sabhi course updates bilkul free milenge.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-deep-border/80 bg-deep-bg py-8 text-center text-xs text-gray-500 pb-20 md:pb-8">
+    <div class="max-w-4xl mx-auto px-4 space-y-3">
+      <div class="flex items-center justify-center gap-2">
+        <i data-lucide="video" class="w-4 h-4 text-accent-cyan"></i>
+        <span class="font-bold text-white text-xs uppercase tracking-wider">CapCut Video Editing Masterclass</span>
+      </div>
+      <p class="text-[11px] text-gray-400">
+        Need Support or Have Questions? Email us: <a href="mailto:editorassetss@gmail.com" class="text-accent-cyan underline hover:text-white font-medium">editorassetss@gmail.com</a>
+      </p>
+      <p class="text-[10px] text-gray-600">
+        © 2026 CapCut Pro Masterclass. All Rights Reserved. Not affiliated with ByteDance or CapCut.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ================= MOBILE STICKY BOTTOM BAR ================= -->
+  <div class="fixed bottom-0 inset-x-0 bg-deep-card/95 backdrop-blur-xl border-t border-deep-border p-3 z-40 md:hidden flex items-center justify-between shadow-2xl">
+    <div class="flex flex-col">
+      <span class="text-[10px] text-gray-400 uppercase font-semibold">Limited Offer</span>
+      <div class="flex items-baseline gap-1">
+        <span class="text-xl font-black text-accent-cyan font-heading">₹199</span>
+        <span class="text-xs text-gray-500 line-through">₹999</span>
+      </div>
+    </div>
+
+    <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn btn-gradient text-white font-black text-xs px-6 py-2.5 rounded-lg flex items-center gap-1 uppercase tracking-wider active:scale-95 transition shadow-lg">
+      <span>ENROLL NOW</span>
+      <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+    </a>
+  </div>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // ================= CONFIGURATION =================
+    const CONFIG = {
+      metaPixelId: "1586549666311642",
+      checkoutUrl: "https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true",
+      supportEmail: "editorassetss@gmail.com"
+    };
+
+    // ================= COUNTDOWN TIMER =================
+    let totalSeconds = 14 * 60 + 59;
+    const timerElement = document.getElementById("top-timer");
+
+    function updateTimer() {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+      if (totalSeconds > 0) {
+        totalSeconds--;
+      } else {
+        totalSeconds = 15 * 60;
+      }
+    }
+    setInterval(updateTimer, 1000);
+    updateTimer();
+
+    // ================= FAQ ACCORDION =================
+    const faqButtons = document.querySelectorAll(".faq-toggle");
+    faqButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector("svg");
+        const isOpen = !content.classList.contains("hidden");
+
+        document.querySelectorAll(".faq-content").forEach(c => c.classList.add("hidden"));
+        document.querySelectorAll(".faq-toggle svg").forEach(i => {
+          i.classList.remove("rotate-45");
+        });
+
+        if (!isOpen) {
+          content.classList.remove("hidden");
+          if (icon) icon.classList.add("rotate-45");
+        }
+      });
+    });
+
+    // ================= ENROLL BUTTON META PIXEL TRACKING =================
+    document.querySelectorAll(".enroll-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        if (typeof fbq === "function") {
+          fbq('track', 'InitiateCheckout', {
+            content_name: 'CapCut Video Editing Masterclass',
+            currency: 'INR',
+            value: 199.00
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
