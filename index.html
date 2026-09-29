@@ -179,61 +179,41 @@
         CapCut ke pro tools, motion graphics, audio sync, sound design, aur cinematic color grading ko step-by-step master karo.
       </p>
 
-      <!-- Video Editing Interface Mockup (Exact layout from reference image) -->
+      <!-- Video Course Preview Banner / Mockup -->
       <div class="max-w-2xl mx-auto mb-8 relative">
-        <div class="rounded-2xl border border-deep-border bg-deep-card/90 p-2.5 sm:p-4 blue-glow-box">
-          <div class="relative rounded-xl overflow-hidden bg-[#03060E] border border-white/10 aspect-[16/10] flex flex-col justify-between p-3 sm:p-5">
+        <div class="rounded-2xl border border-deep-border bg-deep-card/90 p-2 sm:p-3 blue-glow-box">
+          <div class="relative rounded-xl overflow-hidden bg-[#03060E] border border-white/10 aspect-[16/9] shadow-2xl group">
             
-            <!-- Glow Accents inside editor -->
-            <div class="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-emerald-500/20 to-transparent pointer-events-none"></div>
-            <div class="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-fuchsia-500/20 to-transparent pointer-events-none"></div>
+            <!-- Course Preview Image -->
+            <img src="hero-preview.jpg" alt="CapCut Video Editing Course Preview" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+
+            <!-- Dark Overlay Gradient on Hover/Active -->
+            <div class="absolute inset-0 bg-gradient-to-t from-[#040812]/80 via-transparent to-transparent pointer-events-none"></div>
 
             <!-- Top bar inside preview -->
-            <div class="flex items-center justify-between relative z-10">
-              <div class="flex items-center gap-1.5">
-                <span class="w-2.5 h-2.5 rounded-full bg-red-500/80"></span>
-                <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/80"></span>
-                <span class="w-2.5 h-2.5 rounded-full bg-green-500/80"></span>
-                <span class="text-[10px] text-gray-400 font-mono ml-2">EditorHub Timeline v2026</span>
+            <div class="absolute top-2.5 inset-x-3 flex items-center justify-between z-10">
+              <div class="flex items-center gap-1.5 bg-black/60 backdrop-blur-md px-2 py-1 rounded-md border border-white/10">
+                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                <span class="text-[10px] text-gray-300 font-mono ml-1.5">EditorHub Masterclass</span>
               </div>
-              <div class="bg-accent-blue/20 text-accent-cyan border border-accent-blue/30 text-[10px] font-bold px-2 py-0.5 rounded">
-                4K 60FPS
-              </div>
-            </div>
-
-            <!-- Video Timeline Simulation -->
-            <div class="space-y-2 relative z-10 my-auto py-2">
-              <!-- Grid of thumbnails in editor -->
-              <div class="flex items-center justify-center gap-2">
-                <div class="w-16 h-12 sm:w-24 sm:h-16 rounded bg-gradient-to-br from-indigo-900 to-slate-900 border border-indigo-500/30 flex items-center justify-center text-[10px] text-indigo-300 font-semibold shadow">Hook Clip</div>
-                <div class="w-20 h-14 sm:w-28 sm:h-18 rounded bg-gradient-to-br from-cyan-950 to-blue-900 border border-cyan-400/50 flex items-center justify-center text-xs text-cyan-200 font-bold shadow-lg shadow-cyan-500/20 scale-105">B-Roll Cut</div>
-                <div class="w-16 h-12 sm:w-24 sm:h-16 rounded bg-gradient-to-br from-purple-900 to-slate-900 border border-purple-500/30 flex items-center justify-center text-[10px] text-purple-300 font-semibold shadow">Color Grade</div>
-              </div>
-
-              <!-- Audio waveform visualization -->
-              <div class="h-6 sm:h-8 rounded bg-black/60 border border-white/5 flex items-center justify-center px-3 gap-0.5 sm:gap-1 overflow-hidden">
-                <span class="w-1 h-3 bg-accent-cyan rounded-full animate-pulse"></span>
-                <span class="w-1 h-5 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-2 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-6 bg-accent-blue rounded-full"></span>
-                <span class="w-1 h-4 bg-accent-blue rounded-full"></span>
-                <span class="w-1 h-7 bg-accent-cyan rounded-full animate-pulse"></span>
-                <span class="w-1 h-3 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-5 bg-accent-blue rounded-full"></span>
-                <span class="w-1 h-2 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-6 bg-accent-blue rounded-full"></span>
-                <span class="w-1 h-4 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-5 bg-accent-cyan rounded-full"></span>
-                <span class="w-1 h-2 bg-accent-blue rounded-full"></span>
-                <span class="w-1 h-7 bg-accent-cyan rounded-full animate-pulse"></span>
+              <div class="bg-accent-blue/80 backdrop-blur-md text-white border border-accent-blue text-[10px] font-bold px-2 py-0.5 rounded shadow">
+                4K ULTRA HD
               </div>
             </div>
 
-            <!-- "Watch Course Preview" button inside mockup -->
-            <a href="#pricing" class="w-full bg-deep-card/90 hover:bg-deep-border border border-accent-blue/30 text-accent-cyan text-xs font-bold py-2 rounded-lg flex items-center justify-center gap-1.5 transition">
-              <i data-lucide="play" class="w-3.5 h-3.5 fill-accent-cyan text-accent-cyan"></i>
-              <span class="uppercase tracking-wider">WATCH THE COURSE PREVIEW</span>
-            </a>
+            <!-- Bottom Floating Action inside image -->
+            <div class="absolute bottom-2.5 sm:bottom-3 inset-x-3 sm:inset-x-4 flex items-center justify-between z-10">
+              <div class="hidden sm:flex items-center gap-2 bg-black/70 backdrop-blur-md px-2.5 py-1 rounded-md border border-white/10 text-[11px] text-cyan-300 font-semibold">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-accent-cyan"></i>
+                <span>Hands-on Practical Training</span>
+              </div>
+              <a href="https://superprofile.bio/course/96d3bd7c-7ccd-4b8b-b33a-ec15cd0bdb4b?checkout=true" target="_blank" class="enroll-btn w-full sm:w-auto bg-accent-blue hover:bg-accent-blueHover text-white text-xs font-black py-2 px-4 rounded-lg flex items-center justify-center gap-1.5 shadow-xl transition transform active:scale-95 uppercase tracking-wide">
+                <i data-lucide="play" class="w-3.5 h-3.5 fill-white text-white"></i>
+                <span>WATCH THE COURSE PREVIEW</span>
+              </a>
+            </div>
 
           </div>
         </div>
